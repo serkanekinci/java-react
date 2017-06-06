@@ -1,0 +1,45 @@
+{
+  "name": "ModelAltDers",
+  "fields": [
+    {
+      "label": "Id",
+      "type": "string",
+      "name": "oid",
+      "tooltip": "Id",
+      "visible": false
+    },
+    {
+      "label": "createDate",
+      "type": "Date",
+      "name": "createDate",
+      "tooltip": "Create Date",
+      "visible": false
+    },
+    {
+      "label": "Ders Adı",
+      "type": "string",
+      "name": "name",
+      "tooltip": "name",
+      "validations": {
+        "required": {
+          "message": "Bu alan zorunludur"
+        }
+      },
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label":"Ana Ders",
+      "type" : "select",
+      "name" : "anaDersOid",
+      "tooltip" : "anaDers"
+    },
+    {
+      "label": "version",
+      "type": "number",
+      "name": "version",
+      "tooltip": "version",
+      "visible": false
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "IlModel",
+  "fields": [
+    {
+      "label": "Id",
+      "type": "string",
+      "name": "oid",
+      "tooltip": "Id",
+      "visible": false
+    },
+    {
+      "label": "Last Updated",
+      "type": "string",
+      "name": "lastUpdated",
+      "tooltip": "Last Updated",
+      "visible": false
+    },
+    {
+      "label": "Adı",
+      "type": "string",
+      "name": "ilAdi",
+      "tooltip": "Adı",
+      "validations": {
+        "required": {
+          "message": "Bu alan zorunludur"
+        },
+        "minLength": {
+          "args": [
+            2
+          ],
+          "message": "Bu alan 2 karakterden az olamaz"
+        }
+      },
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Kodu",
+      "type": "string",
+      "name": "ilKodu",
+      "tooltip": "ilKodu",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "version",
+      "type": "number",
+      "name": "version",
+      "tooltip": "version",
+      "visible": false
+    }
+  ]
+}

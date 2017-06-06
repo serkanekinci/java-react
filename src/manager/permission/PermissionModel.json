@@ -1,0 +1,40 @@
+{
+  "name": "PermissionsModel",
+  "fields": [
+    {
+      "label": "Aktif",
+      "name": "active",
+      "type": "check",
+      "tooltip": "Aktif",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Path",
+      "name": "path",
+      "type": "string",
+      "validations": {
+        "required": {
+          "message": "Bu alan zorunludur"
+        },
+        "minLength": {
+          "args": [
+            3
+          ],
+          "message": "Bu alan 3 karakterden az olamaz"
+        }
+      },
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Method",
+      "type": "string",
+      "name": "method",
+      "tooltip": "method",
+      "visible": true
+    }
+
+
+  ]
+}

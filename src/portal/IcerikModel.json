@@ -1,0 +1,57 @@
+{
+    "name": "IcerikModel",
+    "fields": [
+    {
+        "label": "Id",
+        "type": "string",
+        "name": "oid",
+        "tooltip": "Id",
+        "visible": false
+    },
+    {
+        "label": "createDate",
+        "type": "Date",
+        "name": "createDate",
+        "tooltip": "Create Date",
+        "visible": false
+    },
+    {
+        "label": "Ders Adı",
+        "type": "string",
+        "name": "name",
+        "tooltip": "name",
+        "validations": {
+            "required": {
+                "message": "Bu alan zorunludur"
+            }
+        },
+        "sort": "",
+        "filter": true
+    },
+    {
+        "label":"Açıklama",
+        "type" : "string",
+        "name" : "aciklama",
+        "tooltip" : "aciklama"
+    },
+    {
+        "label":"İçerik",
+        "type" : "html",
+        "name" : "icerikAlani",
+        "tooltip" : "icerikAlani"
+    },
+    {
+        "label":"Alt Ders",
+        "type" : "select",
+        "name" : "altDersOid",
+        "tooltip" : "altDers"
+    },
+    {
+        "label": "version",
+        "type": "number",
+        "name": "version",
+        "tooltip": "version",
+        "visible": false
+    }
+]
+}

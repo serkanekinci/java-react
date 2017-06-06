@@ -1,0 +1,47 @@
+{
+  "name": "DersModel",
+  "fields": [
+    {
+      "label": "Id",
+      "type": "string",
+      "name": "oid",
+      "tooltip": "Id",
+      "visible": false
+    },
+    {
+      "label": "Last Updated",
+      "type": "string",
+      "name": "lastUpdated",
+      "tooltip": "Last Updated",
+      "visible": false
+    },
+    {
+      "label": "Ders Adı",
+      "type": "string",
+      "name": "name",
+      "tooltip": "Adı",
+      "validations": {
+        "required": {
+          "message": "Bu alan zorunludur"
+        }
+      },
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Kodu",
+      "type": "string",
+      "name": "dersKodu",
+      "tooltip": "Yolu",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "version",
+      "type": "number",
+      "name": "version",
+      "tooltip": "version",
+      "visible": false
+    }
+  ]
+}
